@@ -15,7 +15,7 @@ void PgtmStartup ()
 {
 	try
 	{
-		pqxx::connection c("dbname=pgtm user=root password=0000");
+		pqxx::connection c("dbname=robert user=robert port=5433");
 		pqxx::work w(c);
 		pqxx::result r = w.exec("SELECT 1");
 		w.commit();
