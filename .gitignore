@@ -1,2 +1,5 @@
 *.a
 *.o
+stamp/kmeans/inputs/**
+stamp/labyrinth/inputs/**
+stamp/yada/inputs/**
