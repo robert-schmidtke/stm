@@ -19,6 +19,7 @@ LD      := g++
 LIBPGTM := libpgtm.a
 
 SRCS := \
+	tmalloc.cpp \
 	pgtm.cpp \
 #
 OBJS := ${SRCS:.cpp=.o}
